@@ -1,16 +1,16 @@
 {
-  "name": "vite-plugin-image-presets",
+  "name": "@rx-foss/vite-plugin-image-presets",
   "type": "module",
   "version": "0.3.4",
   "description": "Image Presets for Vite.js apps. Optimize, resize, and process images consistently and with ease.",
   "author": "Máximo Mussini <maximomussini@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/ElMassimo/vite-plugin-image-presets",
+  "homepage": "https://github.com/rx-foss/vite-plugin-image-presets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElMassimo/vite-plugin-image-presets"
+    "url": "https://github.com/rx-foss/vite-plugin-image-presets"
   },
-  "bugs": "https://github.com/ElMassimo/vite-plugin-image-presets/issues",
+  "bugs": "https://github.com/rx-foss/vite-plugin-image-presets/issues",
   "keywords": [
     "plugin",
     "image",
