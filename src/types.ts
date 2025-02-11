@@ -55,6 +55,7 @@ export interface ImageSource {
 }
 
 export interface ImagePreset {
+  generatePlaceholder?: (filename: string, params: ImageGeneratorArgs) => string | Promise<string>;
   attrs?: ImageAttrs
   inferDimensions?: boolean
   images: ImageSource[]

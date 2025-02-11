@@ -105,6 +105,10 @@ export function createImageApi (config: Config) {
         lastImage.height ||= height
       }
 
+      if (preset.generatePlaceholder) {
+        lastImage.src = await preset.generatePlaceholder(filename, params);
+      }
+
       return imagesAttrs
     },
   }
